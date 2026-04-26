@@ -1,0 +1,38 @@
+body {
+  font-family: serif;
+}
+
+/* Carousel */
+.carousel-content {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #000, #0f2027, #203a43);
+}
+
+.content-box {
+  background: rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.content-box h1 {
+  color: #00f7ff;
+}
+
+/* Sections */
+section {
+  border-bottom: 1px solid #222;
+}
+
+/* Accordion */
+.accordion-button {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #111;
+  color: #00f7ff;
+}
